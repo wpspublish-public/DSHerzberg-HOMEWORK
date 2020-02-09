@@ -1,7 +1,8 @@
+suppressMessages(library(here))
 suppressMessages(library(tidyverse))
 
 # Problem component 1
-input <- tribble(
+input1 <- tribble(
   ~group, ~score, ~label,
   1, 10, 'A',
   1, 20, 'B',
@@ -19,7 +20,7 @@ input <- tribble(
   4, 43, 'D'
 )
 
-complete(input, group, label) %>%
+output1 <- complete(input1, group, label) %>%
   fill(score)
 
 # Problem component 2
