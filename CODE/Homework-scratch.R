@@ -3,7 +3,7 @@ suppressMessages(library(tidyverse))
 
 # Problem component 1
 input1 <- tribble(
-  ~group, ~score, ~label,
+  ~group, ~score, ~form,
   1, 10, 'A',
   1, 20, 'B',
   1, 30, 'C',
@@ -20,8 +20,18 @@ input1 <- tribble(
   4, 43, 'D'
 )
 
-output1 <- complete(input1, group, label) %>%
-  fill(score)
+write_csv(input1, here('INPUT-FILES/input1.csv'))
+
+form_means <- input1 %>% 
+  group_by(form) %>% 
+  summarise(mean = mean(score))
+
+output1 <- complete(input1, group, form) %>%
+  mutate(score = case_when(
+    group == 3 & form == 'C' ~ round(as.numeric(form_means[3,2]), 0),
+    group == 3 & form == 'D' ~ round(as.numeric(form_means[4,2]), 0),
+    TRUE ~ score
+  ))
 
 # Problem component 2
 
@@ -31,11 +41,18 @@ dfA <- tibble(a = 1:3, b = 4:6, c = 7:9)
 dfB <- tibble(a = 10:12, b = 13:15, c = 16:18)
 dfC <- tibble(a = 19:21, b = 22:24, c = 25:27)
 
+write_csv(dfA, here('INPUT-FILES/dfA.csv'))
+write_csv(dfB, here('INPUT-FILES/dfB.csv'))
+write_csv(dfC, here('INPUT-FILES/dfC.csv'))
+
 df_list <- list(dfA, dfB, dfC) %>% setNames(table_names)
 
-df_out <- imap(df_list, ~.x %>% mutate(name = .y) %>% select(name, everything()))
-names(df_out) <- paste0(names(df_out), "_mod")
-list2env(df_out, .GlobalEnv)
+df_out <- imap(df_list, 
+               ~.x %>% 
+                 mutate(name = .y) %>% 
+                 select(name, everything())
+               ) %>% 
+  reduce(bind_rows)
 
 # Problem component 3
 df <- tibble(
