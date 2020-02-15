@@ -55,7 +55,7 @@ df_out <- imap(df_list,
   reduce(bind_rows)
 
 # Problem component 3
-df <- tibble(
+input3 <- tibble(
   person = rep(101:102, each = 10),
   item = as.factor(rep(1:10, 2)),
   response = sample(1:4, 20, replace = T),
@@ -68,8 +68,10 @@ df <- tibble(
 )
 df
 
+write_csv(input3, here('INPUT-FILES/input3.csv'))
+
 library(fastDummies)
-dum <- df %>% 
+dum <- input3 %>% 
   dummy_cols(select_columns = 'item') %>% 
   mutate_at(vars(starts_with("item_")), ~replace(., scale_last == 1, 0)) %>% 
   select(-scale_last)
