@@ -80,10 +80,14 @@ dum
 # Problem component 4
 rawscore_table <- data.frame(rawscore = 10:14, SS1 = NA, SS2 = NA)
 
-lookup_table <- data.frame(SS = c('SS1', 'SS2'), x = 1:2, y = 3:4)
+write_csv(rawscore_table, here('INPUT-FILES/input4a.csv'))
+
+lookup_table <- data.frame(SS = c('CS1', 'CS2'), x = 1:2, y = 3:4)
+
+write_csv(lookup_table, here('INPUT-FILES/input4b.csv'))
 
 output <- rawscore_table %>%
-  gather(SS, val, -rawscore) %>%
-  left_join(lookup_table, by = 'SS') %>%
+  gather(CS, val, -rawscore) %>%
+  left_join(lookup_table, by = 'CS') %>%
   mutate(val = rawscore + x + y, x = NULL, y = NULL) %>%
-  spread(SS, val)
+  spread(CS, val)
