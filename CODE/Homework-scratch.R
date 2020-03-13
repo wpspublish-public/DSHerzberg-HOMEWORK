@@ -78,11 +78,11 @@ dum <- input3 %>%
 dum
 
 # Problem component 4
-rawscore_table <- data.frame(rawscore = 10:14, SS1 = NA, SS2 = NA)
+rawscore_table <- data.frame(rawscore = 10:14, SS1 = NA_integer_, SS2 = NA_integer_)
 
 write_csv(rawscore_table, here('INPUT-FILES/input4a.csv'))
 
-lookup_table <- data.frame(SS = c('CS1', 'CS2'), x = 1:2, y = 3:4)
+lookup_table <- tibble(CS = c('SS1', 'SS2'), x = 1:2, y = 3:4)
 
 write_csv(lookup_table, here('INPUT-FILES/input4b.csv'))
 
