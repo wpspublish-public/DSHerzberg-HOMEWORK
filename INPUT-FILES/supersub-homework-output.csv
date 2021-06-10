@@ -1,0 +1,131 @@
+super_q,sub_q,value,label,freq,total_pct,valid_pct,valid_cum_pct,total
+Access/Setting/Overall_Experience,Accessibility_of_platforms/materials,5,Excellent,20,58.8,58.8, 58.8,34
+,,4,Above average,7,20.6,20.6, 79.4,34
+,,3,Average,7,20.6,20.6,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,"Accessing_the_webinar_(e.g.,_purchasing/registering,_logging_in)",5,Excellent,24,70.6,70.6, 70.6,34
+,,4,Above average,7,20.6,20.6, 91.2,34
+,,3,Average,3, 8.8, 8.8,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,"Clarity_and_timeliness_of_information/materials_received_(e.g.,_emails_from_WPS,_course_materials)",5,Excellent,20,58.8,58.8, 58.8,34
+,,4,Above average,8,23.5,23.5, 82.4,34
+,,3,Average,6,17.6,17.6,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Overall_educational_experience,5,Excellent,22,64.7,64.7, 64.7,34
+,,4,Above average,9,26.5,26.5, 91.2,34
+,,3,Average,3, 8.8, 8.8,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,"Technical_quality_(e.g.,_audio/visual_experience)",5,Excellent,22,64.7,64.7, 64.7,34
+,,4,Above average,7,20.6,20.6, 85.3,34
+,,3,Average,5,14.7,14.7,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+Learning_Objectives,Demonstrate_a_basic_understanding_of_how_to_apply_ADOS-2_codes,5,Strongly agree,18,52.9,52.9, 52.9,34
+,,4,Agree,12,35.3,35.3, 88.2,34
+,,3,Neutral,4,11.8,11.8,100.0,34
+,,2,Disagree,0, 0.0, 0.0,100.0,34
+,,1,Strongly disagree,0, 0.0, 0.0,100.0,34
+,Demonstrate_a_basic_understanding_of_how_to_score_ADOS-2_algorithms,5,Strongly agree,20,58.8,58.8, 58.8,34
+,,4,Agree,11,32.4,32.4, 91.2,34
+,,3,Neutral,3, 8.8, 8.8,100.0,34
+,,2,Disagree,0, 0.0, 0.0,100.0,34
+,,1,Strongly disagree,0, 0.0, 0.0,100.0,34
+,Explain_issues_in_the_clinical_application_of_ADOS-2_results,5,Strongly agree,16,47.1,47.1, 47.1,34
+,,4,Agree,14,41.2,41.2, 88.2,34
+,,3,Neutral,3, 8.8, 8.8, 97.1,34
+,,2,Disagree,1, 2.9, 2.9,100.0,34
+,,1,Strongly disagree,0, 0.0, 0.0,100.0,34
+,Identify_administration_procedures_for_the_ADOS-2,5,Strongly agree,18,52.9,52.9, 52.9,34
+,,4,Agree,13,38.2,38.2, 91.2,34
+,,3,Neutral,3, 8.8, 8.8,100.0,34
+,,2,Disagree,0, 0.0, 0.0,100.0,34
+,,1,Strongly disagree,0, 0.0, 0.0,100.0,34
+,Identify_the_basic_psychometric_support_for_the_ADOS-2,5,Strongly agree,15,44.1,44.1, 44.1,34
+,,4,Agree,15,44.1,44.1, 88.2,34
+,,3,Neutral,4,11.8,11.8,100.0,34
+,,2,Disagree,0, 0.0, 0.0,100.0,34
+,,1,Strongly disagree,0, 0.0, 0.0,100.0,34
+Learning_Self-Evaluation,How_much_did_you_learn_as_a_result_of_this_CE_program?,5,A great deal,19,55.9,55.9, 55.9,34
+,,4,More than average,11,32.4,32.4, 88.2,34
+,,3,Average,4,11.8,11.8,100.0,34
+,,2,Less than average,0, 0.0, 0.0,100.0,34
+,,1,Very little,0, 0.0, 0.0,100.0,34
+Quality_of_Instruction_–_Course_Features,"Demonstrations_(e.g.,_video-based_case_examples)",5,Excellent,22,64.7,64.7, 64.7,34
+,,4,Above average,10,29.4,29.4, 94.1,34
+,,3,Average,2, 5.9, 5.9,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,"Interactive_content_(e.g.,_group_discussion_of_administration_and_coding)",5,Excellent,19,55.9,55.9, 55.9,34
+,,4,Above average,7,20.6,20.6, 76.5,34
+,,3,Average,7,20.6,20.6, 97.1,34
+,,2,Below average,1, 2.9, 2.9,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Lecture(s),5,Excellent,21,61.8,61.8, 61.8,34
+,,4,Above average,12,35.3,35.3, 97.1,34
+,,3,Average,1, 2.9, 2.9,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,"Other_interactive_features_(e.g.,_polling,_chat/Q&A)",5,Excellent,19,55.9,55.9, 55.9,34
+,,4,Above average,8,23.5,23.5, 79.4,34
+,,3,Average,7,20.6,20.6,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+"Quality_of_Instruction_–_Instructor_Ratings_–_So_Hyun_“Sophy”_Kim,_PhD",Clarified_content_in_response_to_questions_from_participants,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,6,17.6,17.6, 97.1,34
+,,3,Average,1, 2.9, 2.9,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Knowledgeable_in_relevant_content_areas,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,7,20.6,20.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Presented_content_consistent_with_the_learning_objectives,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,7,20.6,20.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Presented_content_using_methods_appropriate_to_the_content,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,7,20.6,20.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Provided_useful_historical_and_current_information_about_autism_spectrum_disorders,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,7,20.6,20.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+"Quality_of_Instruction_–_Instructor_Ratings_–_Somer_Bishop,_PhD",Clarified_content_in_response_to_questions_from_participants,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,7,20.6,20.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Knowledgeable_in_relevant_content_areas,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,7,20.6,20.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Presented_content_consistent_with_the_learning_objectives,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,7,20.6,20.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Presented_content_using_methods_appropriate_to_the_content,5,Excellent,28,82.4,82.4, 82.4,34
+,,4,Above average,6,17.6,17.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+,Provided_useful_historical_and_current_information_about_autism_spectrum_disorders,5,Excellent,27,79.4,79.4, 79.4,34
+,,4,Above average,7,20.6,20.6,100.0,34
+,,3,Average,0, 0.0, 0.0,100.0,34
+,,2,Below average,0, 0.0, 0.0,100.0,34
+,,1,Poor,0, 0.0, 0.0,100.0,34
+Usefulness_of_Content,How_useful_was_the_content_of_this_CE_program_for_your_practice_or_other_professional_development?,5,Extremely useful,19,55.9,55.9, 55.9,34
+,,4,A good deal useful,15,44.1,44.1,100.0,34
+,,3,Somewhat useful,0, 0.0, 0.0,100.0,34
+,,2,A little useful,0, 0.0, 0.0,100.0,34
+,,1,Not useful,0, 0.0, 0.0,100.0,34
